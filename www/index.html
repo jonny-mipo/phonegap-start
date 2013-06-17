@@ -55,11 +55,15 @@
 		        // do something
 		        //location = "http://www.mipotech.co.il/";
 				window.plugins.statusBarNotification.notify("Jonny Mipo App", "Here's a cool notification for you!", Flag.FLAG_NO_CLEAR);
+		    	console.log("test2");
 		    }
 
 		    // Show a custom alertDismissed
 		    //
 		    function showAlert() {
+		    	console.log("test");
+		    	console.log(window.plugins.statusBarNotification);
+		    	console.log(window.plugins.StatusBarNotification);
 		    	window.plugins.statusBarNotification.notify("Jonny Mipo App", "Here's a cool notification for you!");
 		        navigator.notification.alert(
 		            'You are the winner!',  // message
