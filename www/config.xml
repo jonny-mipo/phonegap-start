@@ -4,9 +4,9 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.mipo.jonnyapp"
-        version   = "0.0.3">
+        version   = "0.0.4">
 
-    <name>Jonny Mipo Test App</name>
+    <name>Jonny Mipo - Test App</name>
 
     <description>
         Jonny's 1st test app for Mipo
