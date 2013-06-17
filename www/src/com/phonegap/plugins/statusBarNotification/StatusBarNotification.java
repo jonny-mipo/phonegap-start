@@ -38,7 +38,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import com.mipo.jonnyapp;
+import com.mipo.jonnyapp.R;
 
 public class StatusBarNotification extends CordovaPlugin {
     //	Action to execute
