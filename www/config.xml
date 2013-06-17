@@ -28,7 +28,10 @@
         following tag to your config.xml; you will still have the INTERNET
         permission on your app, which PhoneGap requires.
     -->
+    <!--
     <preference name="permissions"                value="none"/>
+	-->
+	<plugin name="Notification" value="org.apache.cordova.Notification"/>
 
     <!-- Customize your app and platform with the preference element. -->
     <preference name="phonegap-version"           value="2.7.0" />          <!-- all: current version of PhoneGap -->

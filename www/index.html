@@ -37,6 +37,34 @@
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();
-        </script>
+
+		    // Wait for Cordova to load
+		    //
+		    document.addEventListener("deviceready", onDeviceReady, false);
+
+		    // Cordova is ready
+		    //
+		    function onDeviceReady() {
+		        showAlert();
+		    }
+
+		    // alert dialog dismissed
+		    function alertDismissed() {
+		        // do something
+		        location = "http://www.mipotech.co.il/";
+		    }
+
+		    // Show a custom alertDismissed
+		    //
+		    function showAlert() {
+		        navigator.notification.alert(
+		            'You are the winner!',  // message
+		            alertDismissed,         // callback
+		            'Game Over',            // title
+		            'Done'                  // buttonName
+		        );
+		    }
+
+		    </script>
     </body>
 </html>
