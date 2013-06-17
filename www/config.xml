@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.mipo.jonnyapp"
-        version   = "0.0.6">
+        version   = "0.0.7">
 
     <name>Jonny Mipo - Test App</name>
 
@@ -32,6 +32,7 @@
     <preference name="permissions"                value="none"/>
 	-->
 	<plugin name="Notification" value="org.apache.cordova.Notification"/>
+	<plugin name="StatusBarNotification" value="com.phonegap.plugins.statusBarNotification.StatusBarNotification"/>
 
     <!-- Customize your app and platform with the preference element. -->
     <preference name="phonegap-version"           value="2.7.0" />          <!-- all: current version of PhoneGap -->
@@ -55,6 +56,7 @@
         <gap:plugin name="Example" />
         A list of available plugins are available at https://build.phonegap.com/docs/plugins
     -->
+	<gap:plugin name="StatusBarNotification" value="com.phonegap.plugins.statusBarNotification.StatusBarNotification"/>
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
